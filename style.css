@@ -1,0 +1,55 @@
+body{
+  background:linear-gradient(to left,blue,black);
+}
+.box1{
+  width:20%;
+    height:400px;
+  box-shadow: 0px 0px 5px 5px RoyalBlue;
+  border-radius:20px;
+    border: 5px solid white;
+  float:left;
+  margin-top:100px;
+  margin-left:10%;
+  transition:0.3s;
+}
+.box2{
+    width:20%;
+    height:400px;
+  box-shadow: 0px 0px 5px 5px LightSlateGray;
+  border-radius:20px;
+    border: 5px solid white;
+  float:left;
+  margin-top:100px;
+  margin-left:10%;
+  transition:0.3s;
+}
+.box3{
+    width:20%;
+    height:400px;
+  box-shadow: 0px 0px 5px 5px black;
+  border-radius:20px;
+    border: 5px solid white;
+  float:left;
+  margin-top:100px;
+  margin-left:10%;
+  transition:0.3s;
+}
+h1{
+color:white;
+  Text-align:center;
+}
+img{
+  width:100%;
+}
+.box1:hover{
+ background-image:url(https://thumbs.dreamstime.com/b/black-triangles-blue-vector-seamless-pattern-abstract-background-modern-graphic-design-black-blue-diamonds-wallpaper-black-223785528.jpg);
+  transform:rotate(-10deg) scale(1.2);
+}
+.box2:hover{
+ background-image:url(https://thumbs.dreamstime.com/b/black-triangles-blue-vector-seamless-pattern-abstract-background-modern-graphic-design-black-blue-diamonds-wallpaper-black-223785528.jpg);
+  transform:scale(1.2) translateY(-0.4in);
+}
+.box3:hover{
+ background-image:url(https://thumbs.dreamstime.com/b/black-triangles-blue-vector-seamless-pattern-abstract-background-modern-graphic-design-black-blue-diamonds-wallpaper-black-223785528.jpg);
+  transform:rotate(10deg) scale(1.2);
+}
